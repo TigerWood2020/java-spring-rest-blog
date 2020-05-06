@@ -116,6 +116,8 @@ public class Module1_Tests {
         assertTrue("Task 2: There should be 1 annotation, `@Autowired`, on the `DatabaseLoader` constructor.", annotations.length == 1);
 
         assertEquals("Task 2: The annotation on the `DatabaseLoader` constructor is not of type `@Autowired.", Autowired.class, annotations[0].annotationType());
+
+        
     }
 
     @Test
